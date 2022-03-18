@@ -1,6 +1,6 @@
 {
   "name": "easy-dates",
-  "description": "A small React hook for displaying static dates.",
+  "description": "A small lib for working with static dates.",
   "author": {
     "name": "sandypockets",
     "url": "https://sandypockets.dev"
@@ -8,17 +8,13 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
   "scripts": {
     "build": "node esbuild.js",
     "lint": "eslint ./src && prettier ./src --write"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -27,9 +23,7 @@
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.4",
-    "prettier": "2.5.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "prettier": "2.5.1"
   },
   "homepage": "https://github.com/sandypockets/easy-dates#readme",
   "repository": {
@@ -38,8 +32,6 @@
   },
   "keywords": [
     "dates",
-    "date-fns",
-    "react dates",
-    "hook"
+    "date-fns"
   ]
 }
