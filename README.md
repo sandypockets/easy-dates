@@ -15,12 +15,104 @@ import { dateNow } from 'easy-dates';
 dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 ```
 
-## Available options
+## Available functions
 
 ### `getDaysInMonth`
+Returns the number of days in a given month. Note that month indexes start at 0.
+
+```javascript
+import { getDaysInMonth } from 'easy-dates';
+
+getDaysInMonth(2022, 1) // 28
+
+```
+
+| arg       | type   | required | default |
+|-----------|--------|----------|---------|
+| monthName | string | no       | n/a     |
+
 ### `getMonthIndex`
+Returns the index of the current month. Note that month indexes start at 0.
+
+
+```javascript
+import { getMonthIndex } from 'easy-dates';
+
+getMonthIndex('April') // 3
+
+// Returns current month without arg
+getMonthIndex() // 2
+```
+
+| arg       | type   | required | default |
+|-----------|--------|----------|---------|
+| monthName | string | no       | n/a     |
+
+
 ### `getTodayName`
+Returns the name of today's day.
+
+
+```javascript
+import { getTodayName } from 'easy-dates';
+
+getTodayName() // Friday
+```
+
+| arg | type | required | default |
+|-----|------|----------|---------|
+| n/a | n/a  | n/a      | n/a     |
+
 ### `getTomorrow`
+Returns tomorrow's date.
+
+```javascript
+import { getTomorrow } from 'easy-dates';
+
+getTomorrow('en-CA') // 2022-03-19, 4:00:29 p.m.
+```
+
+| arg        | type   | required | default |
+|------------|--------|----------|---------|
+| locale     | string | no       | n/a     |
+
 ### `daysFromNow`
+Returns a date a specified number of days away. (i.e. what day is it 17 days from now).
+
+```javascript
+import { daysFromNow } from 'easy-dates';
+
+daysFromNow('en-UK', 17) // 4/4/2022, 3:57:54 PM
+```
+
+| arg        | type   | required | default |
+|------------|--------|----------|---------|
+| locale     | string | yes      | 'en-CA' |
+| multiplier | number | yes      | n/a     |
+
+
 ### `getYear`
+Returns the current year. This function does not accept any arguments.
+
+```javascript
+import { getYear } from 'easy-dates';
+
+getYear() // 2022
+```
+
+| arg | type | required | default |
+|-----|------|----------|---------|
+| n/a | n/a  |  n/a     | n/a     |
+
 ### `dateNow`
+Returns the current date and time.
+
+```javascript
+import { dateNow } from 'easy-dates';
+
+dateNow('en-US') // 3/18/2022, 3:53:39 PM
+```
+
+| arg    | type   | required | default |
+|--------|--------|----------|---------|
+| locale | string | yes      | 'en-CA' |

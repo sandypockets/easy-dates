@@ -1,5 +1,5 @@
 export function getMonthIndex(monthName) {
-  if (monthName === "current") {
+  if (monthName === "current" || !monthName) {
     return new Date().getMonth();
   } else {
     const fullMonths = [
