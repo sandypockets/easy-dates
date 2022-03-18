@@ -1,11 +1,22 @@
 # Easy Dates
-Easy dates is a lightweight lib for getting simple date information. 
+Easy dates is a lightweight, zero-dependency library for getting simple date information, easily. 
 
-I created this lib to solve a problem of my own. I noticed I was writing the same code over and over, so I fixed it. Now easy-dates can be used to get simple data, like the number of days in a month, or what the date will be in X days. Check out the full list of what it can return below.
+I created this lib to solve a problem of my own. I noticed I was writing the same code over and over, and figured there are likely others experiencing the same challenges. Now `easy-dates` can be used to get simple data, like the number of days in a month, or what the date will be in X days, without importing a multi megabyte library or fiddling around with the Date object. 
+
+Check out the full list of what `easy-dates` can return below, and feel free to submit an issue if there is a particular function you'd like to see get added.
+
+Please note that this library is currently experimental, and will likely undergo severl breaking changes on the way to the 1.0.0 release. Until then, `easy-dates` is not suitable for production.
 
 ## Installation
+`easy-dates` can be installed with `yarn` or `npm`
 ```shell
+# with yarn
 yarn add easy-dates
+```
+
+```shell
+# with npm
+npm install easy-dates
 ```
 
 ## Usage
@@ -46,7 +57,7 @@ getMonthIndex() // 2
 
 | arg       | type   | required | default |
 |-----------|--------|----------|---------|
-| monthName | string | no       | n/a     |
+| monthName | string | no       | current |
 
 
 ### `getTodayName`
