@@ -5,7 +5,11 @@ I created this lib to solve a problem of my own. I noticed I was writing the sam
 
 Check out the full list of what `easy-dates` can return below, and feel free to submit an issue if there is a particular function you'd like to see get added.
 
-Please note that this library is currently experimental, and will likely undergo severl breaking changes on the way to the 1.0.0 release. Until then, `easy-dates` is not suitable for production.
+Please note that this library is currently experimental, and will likely undergo several breaking changes on the way to the 1.0.0 release. Until then, `easy-dates` is not suitable for production.
+
+## Demo
+Check out a [live demo on StackBlitz](https://stackblitz.com/edit/react-hdbgw4?file=src/App.js)
+
 
 ## Installation
 `easy-dates` can be installed with `yarn` or `npm`

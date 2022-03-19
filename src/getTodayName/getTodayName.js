@@ -9,5 +9,5 @@ export function getTodayName() {
     "Saturday",
   ];
 
-  return fullDays[new Date().getDay()];
+  return fullDays[new Date().getDay()].toLowerCase();
 }

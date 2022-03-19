@@ -1,6 +1,6 @@
 {
   "name": "easy-dates",
-  "description": "A small lib for working with static dates.",
+  "description": "A tiny, zero-dependency utility library for working with static dates.",
   "author": {
     "name": "sandypockets",
     "url": "https://sandypockets.dev"
@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.4",
+    "jest": "^27.5.1",
     "prettier": "2.5.1"
   },
   "homepage": "https://github.com/sandypockets/easy-dates#readme",
@@ -32,6 +33,7 @@
   },
   "keywords": [
     "dates",
-    "date-fns"
+    "date-fns",
+    "zero dependency dates"
   ]
 }

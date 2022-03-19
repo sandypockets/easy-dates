@@ -5,7 +5,6 @@ export function getDaysInMonth(year, monthIndex) {
       month = new Date().getMonth();
     } else {
       const firstThree = monthIndex.slice(0, 3).toLowerCase();
-      console.log(firstThree);
       const monthObj = {
         jan: 0,
         feb: 1,
