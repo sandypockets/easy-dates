@@ -1,2 +1,4 @@
 esbuild.js
 src/*/*.test.js
+coverage/
+.idea/
