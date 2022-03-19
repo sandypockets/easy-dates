@@ -1,10 +1,14 @@
-export function daysFromNow(locale, multiplier) {
+export function daysFromNow(multiplier, locale) {
   const twentyFourHours = Number(86400000);
-  if (locale) {
-    return new Date(
+  let output;
+  if (locale?.length > 0) {
+    output = new Date(
       Date.now() + Number(multiplier) * Number(twentyFourHours)
     ).toLocaleString(locale);
   } else {
-    return new Date(Date.now() + Number(multiplier) * Number(twentyFourHours));
+    output = new Date(
+      Date.now() + Number(multiplier) * Number(twentyFourHours)
+    );
   }
+  return output;
 }

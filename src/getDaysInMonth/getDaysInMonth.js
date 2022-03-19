@@ -1,24 +1,39 @@
-export function getDaysInMonth(year, monthIndex) {
+export function getDaysInMonth(monthIndex, year) {
   let month = Number();
-  if (typeof monthIndex === "string") {
-    if (monthIndex.toLowerCase() === "current") {
+  const monthObj = {
+    jan: 0,
+    feb: 1,
+    mar: 2,
+    apr: 3,
+    may: 4,
+    jun: 5,
+    jul: 6,
+    aug: 7,
+    sep: 8,
+    oct: 9,
+    nov: 10,
+    dec: 11,
+  };
+
+  if (
+    typeof year === "string" ||
+    typeof monthIndex === "string" ||
+    (!monthIndex && !year)
+  ) {
+    if (
+      monthIndex?.toString().toLowerCase() === "current" ||
+      year?.toString().toLowerCase() === "current" ||
+      (!monthIndex && !year)
+    ) {
+      !year ? (year = new Date().getFullYear()) : year;
       month = new Date().getMonth();
     } else {
-      const firstThree = monthIndex.slice(0, 3).toLowerCase();
-      const monthObj = {
-        jan: 0,
-        feb: 1,
-        mar: 2,
-        apr: 3,
-        may: 4,
-        jun: 5,
-        jul: 6,
-        aug: 7,
-        sep: 8,
-        oct: 9,
-        nov: 10,
-        dec: 11,
-      };
+      let firstThree = String();
+      if (monthIndex.length > 3) {
+        firstThree = monthIndex.toString().toLowerCase().slice(0, 3);
+      } else {
+        firstThree = monthIndex;
+      }
       month = monthObj[firstThree];
     }
   } else {

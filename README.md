@@ -38,13 +38,16 @@ Returns the number of days in a given month. Note that month indexes start at 0.
 ```javascript
 import { getDaysInMonth } from 'easy-dates';
 
-getDaysInMonth(2022, 1) // 28
-
+getDaysInMonth(1, 2022) // 28
+getDaysInMonth("feb", 2022) // 28 
+// assuming the actual current month is february, 2022
+getDaysInMonth() // 28 
 ```
 
-| arg       | type   | required | default |
-|-----------|--------|----------|---------|
-| monthName | string | no       | n/a     |
+| arg       | type   | required | default       |
+|-----------|--------|----------|---------------|
+| year      | number | no       | current year  |
+| monthName | string | no       | current month |
 
 <br />
 
@@ -57,7 +60,7 @@ import { getMonthIndex } from 'easy-dates';
 
 getMonthIndex('April') // 3
 
-// Returns current month without arg
+// Returns current month without arg (example assumes current month is March)
 getMonthIndex() // 2
 ```
 
@@ -103,12 +106,12 @@ Returns a date a specified number of days away. (i.e. what day is it 17 days fro
 ```javascript
 import { daysFromNow } from 'easy-dates';
 
-daysFromNow('en-UK', 17) // 4/4/2022, 3:57:54 PM
+daysFromNow(17, 'en-UK') // 4/4/2022, 3:57:54 PM
 ```
 
 | arg        | type   | required | default |
 |------------|--------|----------|---------|
-| locale     | string | yes      | 'en-CA' |
+| locale     | string | no       | 'en-CA' |
 | multiplier | number | yes      | n/a     |
 
 <br />
