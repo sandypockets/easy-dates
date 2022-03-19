@@ -3,6 +3,6 @@ export function getTomorrow(locale) {
   if (locale) {
     return new Date(Date.now() + twentyFourHours).toLocaleString(locale);
   } else {
-    return new Date(Date.now() + twentyFourHours);
+    return new Date(Date.now() + twentyFourHours).toLocaleString("en-CA");
   }
 }

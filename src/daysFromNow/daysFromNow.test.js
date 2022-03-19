@@ -23,13 +23,13 @@ test("it can accept a decimal", () => {
   expect(daysFromNow(1.5, "en-CA")).toBe(asDate);
 });
 
-test("it can omit the locale argument", () => {
+test("it can omit the second argument (locale)", () => {
   expect(daysFromNow(1)).toStrictEqual(
     new Date(new Date(Date.now()).getTime() + oneDay)
   );
 });
 
-test("it can accept various locales", () => {
+test("it can accept locales other than en-CA", () => {
   const asDate = new Date(currentDate + oneDay).toLocaleString("en-UK");
   expect(daysFromNow(1, "en-UK")).toBe(asDate);
 });

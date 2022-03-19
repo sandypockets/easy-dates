@@ -8,13 +8,14 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.4.6",
+  "version": "0.5.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
   "scripts": {
     "build": "node esbuild.js",
-    "lint": "eslint ./src && prettier ./src --write"
+    "lint": "eslint ./src && prettier ./src --write",
+    "test": "yarn lint && yarn build && jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
