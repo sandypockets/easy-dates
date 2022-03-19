@@ -42,6 +42,8 @@ getDaysInMonth(2022, 1) // 28
 |-----------|--------|----------|---------|
 | monthName | string | no       | n/a     |
 
+<br />
+
 ### `getMonthIndex`
 Returns the index of the current month. Note that month indexes start at 0.
 
@@ -59,10 +61,10 @@ getMonthIndex() // 2
 |-----------|--------|----------|---------|
 | monthName | string | no       | current |
 
+<br />
 
 ### `getTodayName`
 Returns the name of today's day.
-
 
 ```javascript
 import { getTodayName } from 'easy-dates';
@@ -73,6 +75,8 @@ getTodayName() // Friday
 | arg | type | required | default |
 |-----|------|----------|---------|
 | n/a | n/a  | n/a      | n/a     |
+
+<br />
 
 ### `getTomorrow`
 Returns tomorrow's date.
@@ -86,6 +90,8 @@ getTomorrow('en-CA') // 2022-03-19, 4:00:29 p.m.
 | arg        | type   | required | default |
 |------------|--------|----------|---------|
 | locale     | string | no       | n/a     |
+
+<br />
 
 ### `daysFromNow`
 Returns a date a specified number of days away. (i.e. what day is it 17 days from now).
@@ -101,6 +107,7 @@ daysFromNow('en-UK', 17) // 4/4/2022, 3:57:54 PM
 | locale     | string | yes      | 'en-CA' |
 | multiplier | number | yes      | n/a     |
 
+<br />
 
 ### `getYear`
 Returns the current year. This function does not accept any arguments.
@@ -115,6 +122,8 @@ getYear() // 2022
 |-----|------|----------|---------|
 | n/a | n/a  |  n/a     | n/a     |
 
+<br />
+
 ### `dateNow`
 Returns the current date and time.
 
@@ -127,3 +136,29 @@ dateNow('en-US') // 3/18/2022, 3:53:39 PM
 | arg    | type   | required | default |
 |--------|--------|----------|---------|
 | locale | string | yes      | 'en-CA' |
+
+<br />
+
+### `closestTo`
+Returns the date from an array closest to a given date.
+
+```javascript
+import { closestTo } from 'easy-dates';
+
+// variables for demonstration only, not required for use
+const today = new Date(Date.now());
+const tomorrow = new Date(Date.now() + 86400000);
+const dayAfterTomorrow = new Date(Date.now() + 86400000 * 2);
+const weekAfterTomorrow = new Date(Date.now() + 86400000 * 7);
+const argumentsArray = [tomorrow, dayAfterTomorrow, weekAfterTomorrow];
+// end variables
+
+closestTo(today, argumentsArray) 
+// Returns an object
+// { difference: 85400000, closest: Sat Mar 19 2022 20:26:34 GMT-0400 (Eastern Daylight Time), closestIndex: 0 }
+```
+
+| arg         | type  | required | default |
+|-------------|-------|----------|---------|
+| controlDate | Date  | yes      | null    |
+| args        | array | yes      | null    |

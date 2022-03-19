@@ -5,3 +5,4 @@ export { getTomorrow } from "./getTomorrow";
 export { daysFromNow } from "./daysFromNow";
 export { getYear } from "./getYear";
 export { dateNow } from "./dateNow";
+export { closestTo } from './closestTo'
