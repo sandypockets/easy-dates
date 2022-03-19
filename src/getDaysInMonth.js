@@ -20,10 +20,10 @@ export function getDaysInMonth(year, monthIndex) {
         nov: 10,
         dec: 11,
       };
-
       month = monthObj[firstThree];
     }
+  } else {
+    month = Number(monthIndex)
   }
-
   return 32 - new Date(year, month, 32).getDate();
 }
