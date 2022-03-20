@@ -15,8 +15,7 @@
   "scripts": {
     "build": "node esbuild.js",
     "lint": "eslint ./src && prettier ./src --write",
-    "test": "yarn lint && yarn build && jest --coverage",
-    "codecov-test": "jest --coverage"
+    "test": "yarn lint && yarn build && jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
