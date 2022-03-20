@@ -28,6 +28,18 @@ yarn add easy-dates
 npm install easy-dates
 ```
 
+Or if you're working with a static HTML document, you can import it in script tags using a CDN
+
+### jsDeliver
+```html
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.6.0/dist/index.js"></script>
+```
+
+### UNPKG
+```html
+<script src="https:///unpkg.com/easy-dates@0.6.0/dist/index.js"></script>
+```
+
 ## Usage
 ```javascript
 import { dateNow } from 'easy-dates';
@@ -208,3 +220,29 @@ As you can see, the first two conversions (a date object or milliseconds timesta
 |------|------|----------|---------|
 | date | any  | yes      | null    |
 
+<br />
+
+### `getDuration`
+Returns the amount of time between two dates as a Unix timestamp. 
+
+```javascript
+import { getDuration } from 'easy-dates';
+
+const oneDay = 86400000;
+const today = new Date(Date.now());
+const tomorrow = new Date(Date.now() + oneDay);
+
+getDuration(today, tomorrow, 'minutes') // 1440
+getDuration(today, tomorrow, 'hours') // 24
+getDuration(today, tomorrow, 'days') // 1
+getDuration(today, tomorrow, 'weeks') // 0.14246575342465753
+getDuration(today, tomorrow, 'months') // 0.03287671232876713
+getDuration(today, tomorrow, 'years') // 0.0027397260273972603
+
+```
+
+| arg        | type   | required | default |
+|------------|--------|----------|---------|
+| firstDate  | any    | yes      | null    |
+| secondDate | any    | yes      | null    |
+| measure    | string | yes      | days    |
