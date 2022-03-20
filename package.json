@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.5.7",
+  "version": "0.6.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
@@ -35,6 +35,8 @@
   "keywords": [
     "dates",
     "date-fns",
-    "zero dependency dates"
+    "zero dependency dates",
+    "parse dates",
+    "moment"
   ]
 }
