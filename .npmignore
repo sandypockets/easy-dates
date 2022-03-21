@@ -8,3 +8,4 @@ src/
 .eslintrc.js
 .prettierignore
 .prettierrc.json
+docs
