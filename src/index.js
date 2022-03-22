@@ -8,3 +8,4 @@ export { getMonthIndex } from "./getMonthIndex/getMonthIndex";
 export { getTodayName } from "./getTodayName/getTodayName";
 export { getTomorrow } from "./getTomorrow/getTomorrow";
 export { getYear } from "./getYear/getYear";
+export { unixToDuration } from "./unixToDuration/unixToDuration";

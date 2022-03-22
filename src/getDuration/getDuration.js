@@ -7,6 +7,9 @@ export function getDuration(firstDate, secondDate, measure) {
   const difference = Math.abs(firstDateUnix - secondDateUnix);
   let output;
   switch (measure) {
+    case "seconds":
+      output = (difference / oneUnixYear) * 8760 * 60 * 60;
+      break;
     case "minutes":
       output = (difference / oneUnixYear) * 8760 * 60;
       break;
