@@ -1,0 +1,5 @@
+.docusaurus
+docs
+node_modules
+static
+src/theme

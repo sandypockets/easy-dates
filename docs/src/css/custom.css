@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #e5e5e5;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #11be60;
+  --ifm-color-primary-dark: #0fab56;
+  --ifm-color-primary-darker: #0ea252;
+  --ifm-color-primary-darkest: #0c8543;
+  --ifm-color-primary-light: #13d16a;
+  --ifm-color-primary-lighter: #14db6e;
+  --ifm-color-primary-lightest: #22eb7e;
+  --ifm-background-color: #18191a;
+
+  --ifm-footer-background-color: #18191a;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__item.navbar__link,
+.menu__link,
+b.navbar__title,
+.table-of-contents__link,
+.footer__copyright,
+.footer__link-item,
+.footer__title,
+h1,
+h2,
+h3 {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.footer__copyright {
+  margin-top: 3rem;
+  font-size: 13px;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+b.navbar__title {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+p {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,
+    "Noto Sans", sans-serif, "system-ui", "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div.navbar__items.navbar__items--right {
+  margin-right: 1rem;
+}

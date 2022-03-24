@@ -1,0 +1,97 @@
+.container {
+  height: 16rem;
+  padding: 4rem 0;
+  box-sizing: content-box;
+}
+
+.title {
+  font-size: 75px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.titleCode {
+  padding: 0 10px;
+  border-radius: 15px;
+}
+
+.wordAccent {
+  font-weight: bolder;
+}
+
+.svg {
+  padding: 1px;
+  margin-right: 1rem;
+  vertical-align: text-bottom;
+}
+
+.logo {
+  margin-bottom: 4rem;
+}
+
+.nonCode {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.code {
+  padding: 1px 5px;
+  margin: 0 0 0 5px;
+  color: var(--ifm-color-primary-lightest);
+  font-weight: 400;
+}
+
+.tagline {
+  margin: 0 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 50px;
+  }
+  .svg {
+    width: 50px;
+  }
+  .code,
+  .nonCode {
+    font-size: 20px;
+  }
+  .tagline {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    height: 12rem;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .svg {
+    width: 40px;
+  }
+  .code,
+  .nonCode {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 12rem;
+    padding: 2rem 0;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .logo {
+    margin-bottom: 2.5rem;
+  }
+  .svg {
+    width: 36px;
+  }
+  .code,
+  .nonCode {
+    white-space: nowrap;
+  }
+}

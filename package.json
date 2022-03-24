@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.7.4",
+  "version": "0.8.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "jest": "^27.5.1",
     "prettier": "2.5.1"
   },
-  "homepage": "https://github.com/sandypockets/easy-dates#readme",
+  "homepage": "https://easy-dates.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/sandypockets/easy-dates.git"
@@ -37,6 +37,7 @@
     "date-fns",
     "zero dependency dates",
     "parse dates",
-    "moment"
+    "moment",
+    "parser"
   ]
 }

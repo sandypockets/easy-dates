@@ -1,0 +1,60 @@
+.container {
+  margin: 3rem 1rem;
+}
+.title {
+  font-size: 48px;
+}
+
+.paragraph {
+  font-size: 24px;
+}
+.paragraphTwo {
+  font-size: 18px;
+}
+
+.code {
+  color: var(--ifm-color-primary-lightest);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.codeIsCopied {
+  margin-left: -50px;
+}
+
+.copied {
+  position: relative;
+  left: 95px;
+  bottom: 40px;
+  color: var(--ifm-color-primary-lightest);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .title {
+    font-size: 36px;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .paragraphTwo {
+    font-size: 14px;
+  }
+  .copied {
+    font-size: 12px;
+  }
+  .codeIsCopied {
+    margin-left: -43px;
+  }
+}
