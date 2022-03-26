@@ -18,9 +18,9 @@ dateToUnix(millisecondsDateStamp) // 1647747963
 
 ### Prop types
 
-| prop   | type  | required | default |
-|--------|-------|----------|---------|
-| `date` | `any` | yes      | `null`    |
+| prop   | type  | required | default  |
+|--------|-------|----------|----------|
+| `date` | `any` | yes      | `null`   |
 
 
 :::info  Using a `string` prop?
