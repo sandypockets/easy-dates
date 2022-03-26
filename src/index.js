@@ -18,3 +18,7 @@ export { isInFuture } from "./isInFuture/isInFuture";
 export { isInPast } from "./isInPast/isInPast";
 export { monthsToYears } from "./monthsToYears/monthsToYears";
 export { daysToWeeks } from "./daysToWeeks/daysToWeeks";
+export { hoursToMilliseconds } from "./hoursToMilliseconds/hoursToMilliseconds";
+export { hoursToMinutes } from "./hoursToMinutes/hoursToMinutes";
+export { millisecondsToHours } from "./millisecondsToHours/millisecondsToHours";
+export { millisecondsToMinutes } from "./millisecondsToMinutes/millisecondsToMinutes";

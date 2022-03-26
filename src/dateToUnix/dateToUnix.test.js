@@ -23,3 +23,13 @@ test("returns a whole number and not a float", () => {
 test("throws an error if the date is not a valid date", () => {
   expect(() => dateToUnix("not a date")).toThrow();
 });
+test("throws an error when given an array", () => {
+  expect(() => dateToUnix([])).toThrow();
+});
+
+test("throws an error when given an object", () => {
+  expect(() => dateToUnix({})).toThrow();
+});
+test("throws an error when given null", () => {
+  expect(() => dateToUnix(null)).toThrow();
+});

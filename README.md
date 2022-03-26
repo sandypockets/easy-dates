@@ -37,12 +37,12 @@ Or if you're working with a static HTML document, you can import it in script ta
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.11.0/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.13.0/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.11.0/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.13.0/dist/index.js"></script>
 ```
 
 ## Usage
@@ -68,12 +68,16 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 - `getTodayName()`
 - `getTomorrow()`
 - `getYear()`
+- `hoursToMilliseconds()`
+- `hoursToMinutes()`
 - `isAfter()`
 - `isBefore()`
 - `isDate()`
 - `isEqual()`
 - `isInFuture()`
 - `isInPast()`
+- `MillisecondsToHours()`
+- `millisecondsToMinutes()`
 - `monthsToYears()`
 - `unixToDate()`
 - `unixToDuration()`
