@@ -15,3 +15,4 @@ export { isBefore } from "./isBefore/isBefore";
 export { isDate } from "./isDate/isDate";
 export { isEqual } from "./isEqual/isEqual";
 export { isInFuture } from "./isInFuture/isInFuture";
+export { isInPast } from "./isInPast/isInPast";

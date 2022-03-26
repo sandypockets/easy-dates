@@ -37,22 +37,23 @@ Or if you're working with a static HTML document, you can import it in script ta
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.6.0/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.11.0/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.6.0/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.11.0/dist/index.js"></script>
 ```
 
 ## Usage
+Check the docs at [easy-dates.dev](https://easy-dates.dev/docs/functions/) for the full list of functions and their specific usage.
+
 ```javascript
 import { dateNow } from 'easy-dates';
 
 dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 ```
 
-### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)
 
 ## Available functions
 
@@ -70,5 +71,9 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 - `isBefore()`
 - `isDate()`
 - `isEqual()`
+- `isInFuture()`
+- `isInPast()`
 - `unixToDate()`
 - `unixToDuration()`
+
+### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)

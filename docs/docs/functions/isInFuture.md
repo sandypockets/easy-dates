@@ -1,15 +1,15 @@
 ---
-sidebar_label: isInFuture()
+sidebar_label: isInPast()
 ---
 
-# `isInFuture`
+# `isInPast`
 Returns a boolean, `true` if the given date is in the future. 
 
 ## Usage
 ```javascript
-import { isInFuture } from 'easy-dates'
+import { isInPast } from 'easy-dates'
 
-isInFuture(date)
+isInPast(date)
 ```
 
 ## Prop types
@@ -21,14 +21,14 @@ Throws an error when given a type other than `Date`.
 
 ## Examples
 ```javascript
-isInFuture(new Date('2022-01-01')) // false
+isInPast(new Date('2022-01-01')) // true
 ```
 
 ```javascript
-isInFuture(new Date('2030-01-01')) // true
+isInPast(new Date('2030-01-01')) // false
 ```
 
 ```javascript
-isInFuture('2022-01-02') // throws an error
+isInPast('2022-01-02') // throws an error
 ```
 
