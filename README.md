@@ -66,5 +66,9 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 - `getTodayName()`
 - `getTomorrow()`
 - `getYear()`
+- `isAfter()`
+- `isBefore()`
+- `isDate()`
+- `isEqual()`
 - `unixToDate()`
 - `unixToDuration()`

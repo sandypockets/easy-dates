@@ -10,3 +10,7 @@ export { getTomorrow } from "./getTomorrow/getTomorrow";
 export { getYear } from "./getYear/getYear";
 export { unixToDuration } from "./unixToDuration/unixToDuration";
 export { unixToDate } from "./unixToDate/unixToDate";
+export { isAfter } from "./isAfter/isAfter";
+export { isBefore } from "./isBefore/isBefore";
+export { isDate } from "./isDate/isDate";
+export { isEqual } from "./isEqual/isEqual";
