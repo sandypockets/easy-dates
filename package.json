@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.11.0",
+  "version": "0.12.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",

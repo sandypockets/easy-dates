@@ -19,3 +19,7 @@ test("returns a whole number and not a float", () => {
   const millisecondsDateStamp = new Date(Date.now()).getTime();
   expect(dateToUnix(millisecondsDateStamp).toString()).not.toMatch(/"."/);
 });
+
+test("throws an error if the date is not a valid date", () => {
+  expect(() => dateToUnix("not a date")).toThrow();
+});

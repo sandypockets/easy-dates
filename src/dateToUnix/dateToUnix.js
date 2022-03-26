@@ -1,19 +1,19 @@
 export function dateToUnix(date) {
-  let output;
-  switch (typeof date) {
-    case "object":
-      output = Math.floor(date.getTime() / 1000);
-      break;
-    case "string":
-      output = Math.floor(
-        (new Date(date.split(",")[0]).getTime() + 86940000) / 1000
-      );
-      break;
-    case "number":
-      output = Math.floor(date / 1000);
-      break;
-    default:
-      output = "Error";
+  if (typeof date === "string") {
+    const formattedDate =
+      new Date(date.split(",")[0]).getTime() + 86940000 / 1000;
+    if (new Date(formattedDate).toString() !== "Invalid Date") {
+      return formattedDate;
+    } else {
+      throw new Error("dateToUnix: Invalid Date string");
+    }
+  } else if (typeof date === "number") {
+    return Math.floor(date / 1000);
+  } else if (typeof date === "object") {
+    return Math.floor(date.getTime() / 1000);
+  } else {
+    throw new Error(
+      "dateToUnix: date must be a string or number or Date object"
+    );
   }
-  return output;
 }

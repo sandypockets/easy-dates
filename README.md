@@ -61,6 +61,7 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 - `dateNow()`
 - `dateToUnix()`
 - `daysFromNow()`
+- `daysToWeeks()`
 - `getDaysInMonth()`
 - `getDuration()`
 - `getMonthIndex()`
@@ -73,6 +74,7 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 - `isEqual()`
 - `isInFuture()`
 - `isInPast()`
+- `monthsToYears()`
 - `unixToDate()`
 - `unixToDuration()`
 

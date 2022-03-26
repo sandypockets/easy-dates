@@ -16,3 +16,5 @@ export { isDate } from "./isDate/isDate";
 export { isEqual } from "./isEqual/isEqual";
 export { isInFuture } from "./isInFuture/isInFuture";
 export { isInPast } from "./isInPast/isInPast";
+export { monthsToYears } from "./monthsToYears/monthsToYears";
+export { daysToWeeks } from "./daysToWeeks/daysToWeeks";
