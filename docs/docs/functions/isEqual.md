@@ -1,5 +1,5 @@
 ---
-sidebar_label: isEqual
+sidebar_label: isEqual()
 ---
 
 # `isEqual`
