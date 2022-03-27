@@ -22,3 +22,5 @@ export { hoursToMilliseconds } from "./hoursToMilliseconds/hoursToMilliseconds";
 export { hoursToMinutes } from "./hoursToMinutes/hoursToMinutes";
 export { millisecondsToHours } from "./millisecondsToHours/millisecondsToHours";
 export { millisecondsToMinutes } from "./millisecondsToMinutes/millisecondsToMinutes";
+export { minutesToHours } from "./minutesToHours/minutesToHours";
+export { minutesToMilliseconds } from "./minutesToMilliseconds/minutesToMilliseconds";

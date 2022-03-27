@@ -19,8 +19,6 @@ Check out a live demo of the latest `easy-dates` version on StackBlitz
 
 [![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)
 
-
-
 ## Installation
 `easy-dates` can be installed with `yarn` or `npm`
 ```shell
@@ -56,30 +54,33 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 
 
 ## Available functions
+Click on a function name below to view specific documentation for that function.
 
-- `closestTo()`
-- `dateNow()`
-- `dateToUnix()`
-- `daysFromNow()`
-- `daysToWeeks()`
-- `getDaysInMonth()`
-- `getDuration()`
-- `getMonthIndex()`
-- `getTodayName()`
-- `getTomorrow()`
-- `getYear()`
-- `hoursToMilliseconds()`
-- `hoursToMinutes()`
-- `isAfter()`
-- `isBefore()`
-- `isDate()`
-- `isEqual()`
-- `isInFuture()`
-- `isInPast()`
-- `MillisecondsToHours()`
-- `millisecondsToMinutes()`
-- `monthsToYears()`
-- `unixToDate()`
-- `unixToDuration()`
+- [`closestTo()`](https://easy-dates.dev/docs/functions/closestTo)
+- [`dateNow()`](https://easy-dates.dev/docs/functions/dateNow)
+- [`dateToUnix()`](https://easy-dates.dev/docs/functions/dateToUnix)
+- [`daysFromNow()`](https://easy-dates.dev/docs/functions/daysFromNow)
+- [`daysToWeeks()`](https://easy-dates.dev/docs/functions/daysToWeeks)
+- [`getDaysInMonth()`](https://easy-dates.dev/docs/functions/getDaysInMonth)
+- [`getDuration()`](https://easy-dates.dev/docs/functions/getDuration)
+- [`getMonthIndex()`](https://easy-dates.dev/docs/functions/getMonthIndex)
+- [`getTodayName()`](https://easy-dates.dev/docs/functions/getTodayName)
+- [`getTomorrow()`](https://easy-dates.dev/docs/functions/getTomorrow)
+- [`getYear()`](https://easy-dates.dev/docs/functions/getYear)
+- [`hoursToMilliseconds()`](https://easy-dates.dev/docs/functions/hoursToMilliseconds)
+- [`hoursToMinutes()`](https://easy-dates.dev/docs/functions/hoursToMinutes)
+- [`isAfter()`](https://easy-dates.dev/docs/functions/isAfter)
+- [`isBefore()`](https://easy-dates.dev/docs/functions/isBefore)
+- [`isDate()`](https://easy-dates.dev/docs/functions/isDate)
+- [`isEqual()`](https://easy-dates.dev/docs/functions/isEqual)
+- [`isInFuture()`](https://easy-dates.dev/docs/functions/isInFuture)
+- [`isInPast()`](https://easy-dates.dev/docs/functions/isInPast)
+- [`MillisecondsToHours()`](https://easy-dates.dev/docs/functions/MillisecondsToHours)
+- [`millisecondsToMinutes()`](https://easy-dates.dev/docs/functions/millisecondsToMinutes)
+- [`minutesToHours()`](https://easy-dates.dev/docs/functions/minutesToHours)
+- [`minutesToMilliseconds()`](https://easy-dates.dev/docs/functions/minutesToMilliseconds)
+- [`monthsToYears()`](https://easy-dates.dev/docs/functions/monthsToYears)
+- [`unixToDate()`](https://easy-dates.dev/docs/functions/unixToDate)
+- [`unixToDuration()`](https://easy-dates.dev/docs/functions/unixToDuration)
 
 ### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)
