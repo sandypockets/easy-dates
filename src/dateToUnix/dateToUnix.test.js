@@ -2,9 +2,14 @@ const { dateToUnix } = require("../../dist");
 
 const dateObject = new Date(Date.now());
 
-test("converts a date object to unix timestamp", () => {
+test("converts a date to unix timestamp", () => {
   expect(dateToUnix(dateObject)).toBeGreaterThan(1000000);
 });
+
+test("converts a date object to unix timestamp", () => {
+  expect(dateToUnix(new Date())).toBeGreaterThan(1000000);
+});
+
 test("converts a date string to unix timestamp", () => {
   const dateString = new Date(Date.now()).toLocaleString("en-CA");
   expect(dateToUnix(dateString)).toBeGreaterThan(1000000);

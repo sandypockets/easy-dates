@@ -8,14 +8,12 @@ Easy dates is a lightweight, zero-dependency library for getting simple date inf
 
  ### Read the docs at [easy-dates.dev](https://easy-dates.dev)
 
-I created this library to solve a problem of my own. I noticed I was writing the same code over and over, and figured there are likely others experiencing the same challenges. Now `easy-dates` can be used to get simple data, like the number of days in a month, or what the date will be in X days, without importing a multi megabyte library or fiddling around with the Date object. 
+`easy-dates` was developed to solve a problem. Working with dates in JavaScript is a pain, and most libraries for working with them are massive, some even cresting 6mb. In most cases, that adds more to the bundle than can be justified. To fix it, `easy-dates` offers much of the same functionality as those other libraries, with a considerably smaller footprint.
 
 Check out the full list of what `easy-dates` can do in the [documentation](https://easy-dates.dev), and feel free to submit an issue if there is a particular function you'd like to see get added.
 
-Please note that this library is currently experimental, and will likely undergo several breaking changes on the way to the 1.0.0 release. Until then, `easy-dates` is not suitable for production.
-
 ## Demo
-Check out a live demo of the latest `easy-dates` version on StackBlitz
+Check out a live demo of the latest `easy-dates` version on StackBlitz.
 
 [![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)
 
@@ -31,7 +29,7 @@ yarn add easy-dates
 npm install easy-dates
 ```
 
-Or if you're working with a static HTML document, you can import it in script tags using a CDN
+Or if you're working with a static HTML document, you can import it in script tags using a CDN.
 
 ### jsDeliver
 ```html
@@ -82,5 +80,6 @@ Click on a function name below to view specific documentation for that function.
 - [`monthsToYears()`](https://easy-dates.dev/docs/functions/monthsToYears)
 - [`unixToDate()`](https://easy-dates.dev/docs/functions/unixToDate)
 - [`unixToDuration()`](https://easy-dates.dev/docs/functions/unixToDuration)
+- [`findLatest()`](https://easy-dates.dev/docs/functions/findLatest)
 
 ### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)
