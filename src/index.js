@@ -25,3 +25,4 @@ export { millisecondsToMinutes } from "./millisecondsToMinutes/millisecondsToMin
 export { minutesToHours } from "./minutesToHours/minutesToHours";
 export { minutesToMilliseconds } from "./minutesToMilliseconds/minutesToMilliseconds";
 export { findLatest } from "./findLatest/findLatest";
+export { findEarliest } from "./findEarliest/findEarliest";
