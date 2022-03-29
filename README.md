@@ -59,6 +59,8 @@ Click on a function name below to view specific documentation for that function.
 - [`dateToUnix()`](https://easy-dates.dev/docs/functions/dateToUnix)
 - [`daysFromNow()`](https://easy-dates.dev/docs/functions/daysFromNow)
 - [`daysToWeeks()`](https://easy-dates.dev/docs/functions/daysToWeeks)
+- [`findEarliest()`](https://easy-dates.dev/docs/functions/findEarliest)
+- [`findLatest()`](https://easy-dates.dev/docs/functions/findLatest)
 - [`getDaysInMonth()`](https://easy-dates.dev/docs/functions/getDaysInMonth)
 - [`getDuration()`](https://easy-dates.dev/docs/functions/getDuration)
 - [`getMonthIndex()`](https://easy-dates.dev/docs/functions/getMonthIndex)
@@ -80,6 +82,5 @@ Click on a function name below to view specific documentation for that function.
 - [`monthsToYears()`](https://easy-dates.dev/docs/functions/monthsToYears)
 - [`unixToDate()`](https://easy-dates.dev/docs/functions/unixToDate)
 - [`unixToDuration()`](https://easy-dates.dev/docs/functions/unixToDuration)
-- [`findLatest()`](https://easy-dates.dev/docs/functions/findLatest)
 
 ### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)
