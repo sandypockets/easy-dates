@@ -75,8 +75,9 @@ Click on a function name below to view specific documentation for that function.
 - [`isEqual()`](https://easy-dates.dev/docs/functions/isEqual)
 - [`isInFuture()`](https://easy-dates.dev/docs/functions/isInFuture)
 - [`isInPast()`](https://easy-dates.dev/docs/functions/isInPast)
-- [`MillisecondsToHours()`](https://easy-dates.dev/docs/functions/MillisecondsToHours)
+- [`millisecondsToSeconds()`](https://easy-dates.dev/docs/functions/millisecondsToSeconds)
 - [`millisecondsToMinutes()`](https://easy-dates.dev/docs/functions/millisecondsToMinutes)
+- [`MillisecondsToHours()`](https://easy-dates.dev/docs/functions/MillisecondsToHours)
 - [`minutesToSeconds()`](https://easy-dates.dev/docs/functions/minutesToSeconds)
 - [`minutesToHours()`](https://easy-dates.dev/docs/functions/minutesToHours)
 - [`minutesToMilliseconds()`](https://easy-dates.dev/docs/functions/minutesToMilliseconds)
@@ -86,6 +87,7 @@ Click on a function name below to view specific documentation for that function.
 - [`unixToDuration()`](https://easy-dates.dev/docs/functions/unixToDuration)
 - [`quartersToMonths()`](https://easy-dates.dev/docs/functions/quartersToMonths)
 - [`quartersToYears()`](https://easy-dates.dev/docs/functions/quartersToYears)
+- [`secondsToMilliseconds()`](https://easy-dates.dev/docs/functions/secondsToMilliseconds)
 - [`secondsToMinutes()`](https://easy-dates.dev/docs/functions/secondsToMinutes)
 - [`secondsToHours()`](https://easy-dates.dev/docs/functions/secondsToHours)
 
