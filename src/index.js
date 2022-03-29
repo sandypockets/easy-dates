@@ -27,3 +27,8 @@ export { minutesToMilliseconds } from "./minutesToMilliseconds/minutesToMillisec
 export { findLatest } from "./findLatest/findLatest";
 export { findEarliest } from "./findEarliest/findEarliest";
 export { minutesToSeconds } from "./minutesToSeconds/minutesToSeconds";
+export { monthsToQuarters } from "./monthsToQuarters/monthsToQuarters";
+export { quartersToMonths } from "./quartersToMonths/quartersToMonths";
+export { quartersToYears } from "./quartersToYears/quartersToYears";
+export { secondsToMinutes } from "./secondsToMinutes/secondsToMinutes";
+export { secondsToHours } from "./secondsToHours/secondsToHours";
