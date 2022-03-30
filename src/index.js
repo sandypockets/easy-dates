@@ -34,3 +34,7 @@ export { quartersToYears } from "./quartersToYears/quartersToYears";
 export { secondsToMilliseconds } from "./secondsToMilliseconds/secondsToMilliseconds";
 export { secondsToMinutes } from "./secondsToMinutes/secondsToMinutes";
 export { secondsToHours } from "./secondsToHours/secondsToHours";
+export { weeksToDays } from "./weeksToDays/weeksToDays";
+export { yearsToMonths } from "./yearsToMonths/yearsToMonths";
+export { yearsToQuarters } from "./yearsToQuarters/yearsToQuarters";
+export { yearsToDays } from "./yearsToDays/yearsToDays";

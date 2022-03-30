@@ -70,3 +70,22 @@ All JavaScript code is linted with [Prettier](https://prettier.io/).
 
 * Prefer the object spread operator (`{...anotherObj}`) to `Object.assign()`
 * Inline `export`s with expressions whenever possible
+
+## Automating the development process
+If you're writing new functions for the library, then you can use a the `createNewFunctionFiles` script to generate a new function file and test file. To run the script, run the following command, replacing `myNewFunctionName` with the actual name of the function you're creating: 
+
+```shell
+yarn new myNewFunctionName
+```
+
+This will generate a new directory with a new function file and test file.
+
+```shell
+src/myNewFunctionName/myNewFunctionName.js
+src/myNewFunctionName/myNewFunctionName.test.js
+```
+
+It will also generate an export statement in the `src/index.js` file, and create a new documentation entry in the `docs/myNewFunctionName.md` file.
+
+### Testing your new function
+When your function code and tests are written, run `yarn test`. This will lint your code, run the build script, then run your tests. If you have any errors, you can fix them and re-run the tests by once again running `yarn test`. Once all test are passing, submit your pull request.
