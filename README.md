@@ -33,12 +33,12 @@ Or if you're working with a static HTML document, you can import it in script ta
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.16.0/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.20.2/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.16.0/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.20.2/dist/index.js"></script>
 ```
 
 ## Usage
@@ -83,12 +83,16 @@ Click on a function name below to view specific documentation for that function.
 - [`minutesToMilliseconds()`](https://easy-dates.dev/docs/functions/minutesToMilliseconds)
 - [`monthsToQuarters()`](https://easy-dates.dev/docs/functions/monthsToQuarters)
 - [`monthsToYears()`](https://easy-dates.dev/docs/functions/monthsToYears)
-- [`unixToDate()`](https://easy-dates.dev/docs/functions/unixToDate)
-- [`unixToDuration()`](https://easy-dates.dev/docs/functions/unixToDuration)
-- [`quartersToMonths()`](https://easy-dates.dev/docs/functions/quartersToMonths)
 - [`quartersToYears()`](https://easy-dates.dev/docs/functions/quartersToYears)
+- [`quartersToMonths()`](https://easy-dates.dev/docs/functions/quartersToMonths)
 - [`secondsToMilliseconds()`](https://easy-dates.dev/docs/functions/secondsToMilliseconds)
 - [`secondsToMinutes()`](https://easy-dates.dev/docs/functions/secondsToMinutes)
 - [`secondsToHours()`](https://easy-dates.dev/docs/functions/secondsToHours)
+- [`unixToDate()`](https://easy-dates.dev/docs/functions/unixToDate)
+- [`unixToDuration()`](https://easy-dates.dev/docs/functions/unixToDuration)
+- [`weeksToDays()`](https://easy-dates.dev/docs/functions/weeksToDays)
+- [`yearsToDays()`](https://easy-dates.dev/docs/functions/yearsToDays)
+- [`yearsToMonths()`](https://easy-dates.dev/docs/functions/yearsToMonths)
+- [`yearsToQuarters()`](https://easy-dates.dev/docs/functions/yearsToQuarters)
 
 ### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)
