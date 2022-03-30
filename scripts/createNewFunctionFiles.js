@@ -81,7 +81,6 @@ test("", () => {
   });
 }
 
-// Create the folder
 fs.mkdir(`src/${args[0]}`, (err) => {
   if (err) {
     console.log(`Error creating folder: ${args[0]}/ -`, err);
