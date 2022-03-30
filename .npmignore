@@ -9,3 +9,4 @@ src/
 .prettierignore
 .prettierrc.json
 docs
+scripts
