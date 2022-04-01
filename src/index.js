@@ -38,3 +38,4 @@ export { weeksToDays } from "./weeksToDays/weeksToDays";
 export { yearsToMonths } from "./yearsToMonths/yearsToMonths";
 export { yearsToQuarters } from "./yearsToQuarters/yearsToQuarters";
 export { yearsToDays } from "./yearsToDays/yearsToDays";
+export { areIntervalsOverlapping } from "./areIntervalsOverlapping/areIntervalsOverlapping";

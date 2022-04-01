@@ -8,7 +8,7 @@ Easy dates is a lightweight, zero-dependency library for getting simple date inf
 
  ### Read the docs at [easy-dates.dev](https://easy-dates.dev)
 
-`easy-dates` was developed to solve a problem. Working with dates in JavaScript is a pain, and most libraries for working with them are massive, some even cresting 6mb. In most cases, that adds more to the bundle than can be justified. To fix it, `easy-dates` offers much of the same functionality as those other libraries, with a considerably smaller footprint.
+`easy-dates` was developed to solve a problem. Working with dates in JavaScript is a pain, and most libraries for working with them are massive, some even cresting 6mb. In most cases, that adds more to the bundle than can be justified. To fix it, `easy-dates` offers much of the same functionality as those other libraries, with a considerably smaller footprint. 
 
 Check out the full list of what `easy-dates` can do in the [documentation](https://easy-dates.dev), and feel free to submit an issue if there is a particular function you'd like to see get added.
 
@@ -33,12 +33,12 @@ Or if you're working with a static HTML document, you can import it in script ta
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.20.2/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.22.0/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.20.2/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.22.0/dist/index.js"></script>
 ```
 
 ## Usage
@@ -54,6 +54,7 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 ## Available functions
 Click on a function name below to view specific documentation for that function.
 
+- [`areIntervalsOverlapping`](https://easy-dates.dev/docs/functions/areIntervalsOverlapping/)
 - [`closestTo()`](https://easy-dates.dev/docs/functions/closestTo)
 - [`dateNow()`](https://easy-dates.dev/docs/functions/dateNow)
 - [`dateToUnix()`](https://easy-dates.dev/docs/functions/dateToUnix)
