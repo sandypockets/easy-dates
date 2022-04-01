@@ -23,10 +23,10 @@ Prefer to get your code from a script tag? No problem. Below are the latest vers
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.20.2/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.22.1/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.20.2/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.22.1/dist/index.js"></script>
 ```

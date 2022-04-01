@@ -4,6 +4,7 @@ Easy dates is a lightweight, zero-dependency library for getting simple date inf
 [![License: MIT](https://img.shields.io/npm/l/easy-dates?color=1eb319)](LICENSE.md)
 [![](https://img.shields.io/npm/v/easy-dates?color=%231eb319)](https://www.npmjs.com/package/easy-dates)
 [![](https://img.shields.io/npm/dw/easy-dates?label=npm%20downloads&color=%231eb319)](https://www.npmjs.com/package/easy-dates)
+[![install size](https://packagephobia.com/badge?p=easy-dates)](https://packagephobia.com/result?p=easy-dates)
 [![](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/sandypockets)
 
  ### Read the docs at [easy-dates.dev](https://easy-dates.dev)
@@ -33,12 +34,12 @@ Or if you're working with a static HTML document, you can import it in script ta
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.22.0/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.22.1/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.22.0/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.22.1/dist/index.js"></script>
 ```
 
 ## Usage
@@ -54,7 +55,7 @@ dateNow('en-CA') // 2022-03-17, 11:50:09 p.m.
 ## Available functions
 Click on a function name below to view specific documentation for that function.
 
-- [`areIntervalsOverlapping`](https://easy-dates.dev/docs/functions/areIntervalsOverlapping/)
+- [`areIntervalsOverlapping()`](https://easy-dates.dev/docs/functions/areIntervalsOverlapping/)
 - [`closestTo()`](https://easy-dates.dev/docs/functions/closestTo)
 - [`dateNow()`](https://easy-dates.dev/docs/functions/dateNow)
 - [`dateToUnix()`](https://easy-dates.dev/docs/functions/dateToUnix)
