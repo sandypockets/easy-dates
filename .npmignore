@@ -10,3 +10,4 @@ src/
 .prettierrc.json
 docs
 scripts
+.github/
