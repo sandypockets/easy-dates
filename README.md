@@ -58,6 +58,7 @@ Click on a function name below to view specific documentation for that function.
 - [`areIntervalsOverlapping()`](https://easy-dates.dev/docs/functions/areIntervalsOverlapping/)
 - [`closestTo()`](https://easy-dates.dev/docs/functions/closestTo)
 - [`dateNow()`](https://easy-dates.dev/docs/functions/dateNow)
+- [`dateNowISO()`](https://easy-dates.dev/docs/functions/dateNowISO)
 - [`dateNowUnix()`](https://easy-dates.dev/docs/functions/dateNowUnix)
 - [`dateToMilliseconds()`](https://easy-dates.dev/docs/functions/dateToMilliseconds)
 - [`dateToUnix()`](https://easy-dates.dev/docs/functions/dateToUnix)
