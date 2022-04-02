@@ -21,7 +21,9 @@ export default function HomepageHero() {
         </p>
         <p>
           <span className={styles.nonCode}>Use</span>
-          <code className={styles.code}>dateNowUnix()</code>
+          <a href="/docs/functions/dateNowUnix">
+            <code className={styles.code}>dateNowUnix()</code>
+          </a>
           <span className={styles.nonCode}> instead.</span>
         </p>
       </h2>

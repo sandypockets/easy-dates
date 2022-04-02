@@ -16,6 +16,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #e5e5e5;
+  --doc-sidebar-width: 20rem !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -79,3 +80,4 @@ p {
 div.navbar__items.navbar__items--right {
   margin-right: 1rem;
 }
+

@@ -29,7 +29,7 @@ export default function CallToAction() {
         in your terminal.
       </p>
       <p className={styles.paragraphTwo}>
-        Check the docs for detailed instructions.
+        Check the <a href="/docs/intro">docs</a> for detailed instructions.
       </p>
     </div>
   );
