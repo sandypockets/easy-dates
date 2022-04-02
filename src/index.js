@@ -39,3 +39,6 @@ export { yearsToMonths } from "./yearsToMonths/yearsToMonths";
 export { yearsToQuarters } from "./yearsToQuarters/yearsToQuarters";
 export { yearsToDays } from "./yearsToDays/yearsToDays";
 export { areIntervalsOverlapping } from "./areIntervalsOverlapping/areIntervalsOverlapping";
+export { getOverlappingDaysInIntervals } from "./getOverlappingDaysInIntervals/getOverlappingDaysInIntervals";
+export { dateToMilliseconds } from "./dateToMilliseconds/dateToMilliseconds";
+export { dateNowUnix } from "./dateNowUnix/dateNowUnix";

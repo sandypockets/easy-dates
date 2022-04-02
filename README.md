@@ -34,12 +34,12 @@ Or if you're working with a static HTML document, you can import it in script ta
 
 ### jsDeliver
 ```html
-<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.22.1/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-dates@0.23.0/dist/index.js"></script>
 ```
 
 ### UNPKG
 ```html
-<script src="https:///unpkg.com/easy-dates@0.22.1/dist/index.js"></script>
+<script src="https:///unpkg.com/easy-dates@0.23.0/dist/index.js"></script>
 ```
 
 ## Usage
@@ -58,6 +58,8 @@ Click on a function name below to view specific documentation for that function.
 - [`areIntervalsOverlapping()`](https://easy-dates.dev/docs/functions/areIntervalsOverlapping/)
 - [`closestTo()`](https://easy-dates.dev/docs/functions/closestTo)
 - [`dateNow()`](https://easy-dates.dev/docs/functions/dateNow)
+- [`dateNowUnix()`](https://easy-dates.dev/docs/functions/dateNowUnix)
+- [`dateToMilliseconds()`](https://easy-dates.dev/docs/functions/dateToMilliseconds)
 - [`dateToUnix()`](https://easy-dates.dev/docs/functions/dateToUnix)
 - [`daysFromNow()`](https://easy-dates.dev/docs/functions/daysFromNow)
 - [`daysToWeeks()`](https://easy-dates.dev/docs/functions/daysToWeeks)
@@ -66,6 +68,7 @@ Click on a function name below to view specific documentation for that function.
 - [`getDaysInMonth()`](https://easy-dates.dev/docs/functions/getDaysInMonth)
 - [`getDuration()`](https://easy-dates.dev/docs/functions/getDuration)
 - [`getMonthIndex()`](https://easy-dates.dev/docs/functions/getMonthIndex)
+- [`getOverlappingDaysInIntervals()`](https://easy-dates.dev/docs/functions/getOverlappingDaysInIntervals)
 - [`getTodayName()`](https://easy-dates.dev/docs/functions/getTodayName)
 - [`getTomorrow()`](https://easy-dates.dev/docs/functions/getTomorrow)
 - [`getYear()`](https://easy-dates.dev/docs/functions/getYear)
@@ -97,4 +100,5 @@ Click on a function name below to view specific documentation for that function.
 - [`yearsToMonths()`](https://easy-dates.dev/docs/functions/yearsToMonths)
 - [`yearsToQuarters()`](https://easy-dates.dev/docs/functions/yearsToQuarters)
 
-### For more information about `easy-dates`, refer to our Documentation website at [easy-dates.dev](https://easy-dates.dev)
+
+### For more information about `easy-dates`, refer to the documentation website at [easy-dates.dev](https://easy-dates.dev)
