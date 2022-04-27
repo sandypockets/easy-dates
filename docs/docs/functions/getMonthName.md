@@ -17,7 +17,7 @@ At this time, this function supports:
 ```javascript
 import { getMonthName } from 'easy-dates';
 
-getMonthName();
+getMonthName(local, index, short);
 ```
 
 ## Prop types
