@@ -42,5 +42,5 @@ export { areIntervalsOverlapping } from "./areIntervalsOverlapping/areIntervalsO
 export { getOverlappingDaysInIntervals } from "./getOverlappingDaysInIntervals/getOverlappingDaysInIntervals";
 export { dateToMilliseconds } from "./dateToMilliseconds/dateToMilliseconds";
 export { dateNowUnix } from "./dateNowUnix/dateNowUnix";
-
 export { dateNowISO } from "./dateNowIso/dateNowISO";
+export { getMonthName } from "./getMonthName/getMonthName";
