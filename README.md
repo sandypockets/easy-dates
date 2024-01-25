@@ -14,6 +14,9 @@ Easy dates is a lightweight, zero-dependency library for getting simple date inf
 
 Check out the full list of what `easy-dates` can do in the [documentation](https://easy-dates.dev), and feel free to submit an issue if there is a particular function you'd like to see get added.
 
+> _New!_\
+> Looking for a Date Picker? Check out [easy-dates-picker](https://github.com/sandypockets/easy-dates-picker).
+
 ## Demo
 Check out a live demo of the latest `easy-dates` version on StackBlitz.
 
