@@ -8,14 +8,14 @@
   "bugs": {
     "url": "https://github.com/sandypockets/easy-dates/issues"
   },
-  "version": "0.25.1",
+  "version": "0.26.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
   "scripts": {
     "build": "node esbuild.js",
     "lint": "eslint ./src && prettier ./src --write",
-    "test": "yarn lint && yarn build && jest --coverage",
+    "test": "npm run lint && npm run build && jest --coverage",
     "new": "node ./scripts/createNewFunctionFiles.js"
   },
   "devDependencies": {
