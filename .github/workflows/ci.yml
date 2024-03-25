@@ -1,0 +1,50 @@
+name: CI and Conditional Publish
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run test
+
+  publish:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          registry-url: 'https://registry.npmjs.org/'
+      - name: Check if version changed
+        id: check_version
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          NPM_VERSION=$(npm view easy-dates version || echo '0.0.0')
+          if [ "$PACKAGE_VERSION" != "$NPM_VERSION" ]; then
+            echo "VERSION_CHANGED=true" >> $GITHUB_ENV
+          fi
+      - name: Install dependencies
+        if: env.VERSION_CHANGED == 'true'
+        run: npm ci
+      - name: Publish to npm
+        if: env.VERSION_CHANGED == 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
