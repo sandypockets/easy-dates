@@ -1,5 +1,8 @@
 const { unixToDate } = require("../../dist");
 
+// Set timezone to UTC before running tests
+process.env.TZ = "UTC";
+
 test("1648078332 Unix is equal to 2022-03-23, 7:32:12 p.m.", () => {
   expect(unixToDate(1648078332, "en-CA")).toBe("2022-03-23, 7:32:12 p.m.");
 });
