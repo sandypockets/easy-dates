@@ -24,10 +24,12 @@ const FeatureList = [
     title: "Tiny bundle size",
     description: (
       <>
-        Many of the 'go to' date libraries are over 4mb, and deprecated. At only a few kilobytes, <code>easy-dates</code> is tiny. And we plan to keep it that way.
+        Many of the 'go to' date libraries are over 4mb, and deprecated. At only
+        a few kilobytes, <code>easy-dates</code> is tiny. And we plan to keep it
+        that way.
       </>
     ),
-  }
+  },
 ];
 
 function Feature({ title, description }) {

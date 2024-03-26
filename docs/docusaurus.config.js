@@ -44,7 +44,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: "img/calendar.svg",
-      hideableSidebar: true,
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true
