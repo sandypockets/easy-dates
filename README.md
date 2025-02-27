@@ -22,6 +22,13 @@ Check out a live demo of the latest `easy-dates` version on StackBlitz.
 
 [![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)
 
+
+### Running in a Cloud Environment
+
+**Click the button below to start a new development environment:**
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/sandypockets/easy-dates)
+
 ## Installation
 `easy-dates` can be installed with `yarn` or `npm`
 ```shell
